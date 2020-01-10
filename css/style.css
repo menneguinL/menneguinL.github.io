@@ -3,6 +3,14 @@
     border-radius: 5%;
 }
 
-.test {
+.fond {
+    background-image: url("../image/fond.jpg");
+    height: 500px;
+}
+.button {
     background-color: black;
+    color: white;
+}
+.button:hover {
+    background-color: white;
 }
