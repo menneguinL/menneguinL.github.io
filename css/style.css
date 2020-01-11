@@ -19,10 +19,12 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
-.top {
-    margin-top: 250px;
     text-align: center;
+
+}
+
+.padding {
+    padding-top: 150px;
 }
 
 footer {
