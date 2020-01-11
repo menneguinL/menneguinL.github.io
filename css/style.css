@@ -39,6 +39,14 @@
     height: 404px;
 }
 
+
+.bcgProjet {
+    background-color: black;
+
+}
+.white {
+    color: white;
+}
 footer {
     color: white;
 }
