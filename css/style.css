@@ -29,7 +29,14 @@
 
 .gris {
     background-color: black;
-    color: white;
+}
+
+.projetHeight {
+    height: 200px;
+}
+
+.cardheight {
+    height: 404px;
 }
 
 footer {
