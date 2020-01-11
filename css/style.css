@@ -36,10 +36,12 @@
 }
 
 .cardheight {
-    height: 404px;
+    height: 340px;
 }
 
-
+.cardheight2 {
+    height: 175px;
+}
 .bcgProjet {
     background-color: black;
 
