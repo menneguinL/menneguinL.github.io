@@ -2,6 +2,10 @@
     width: 75px;
     border-radius: 5%;
 }
+.images {
+    width: 300px;
+    border-radius: 5%;
+}
 
 .fond {
     background-image: url("../image/fond.jpg");
