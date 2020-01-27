@@ -502,11 +502,12 @@
     if (score >= 20) {
       answer.textContent =  score + "/25 \nyou are in very good health, you may be able to sleep more, exercise more or eat a more balanced diet."
     } else if (score >= 13) {
-      answer.textContent =  score + "/25 \nyou're pretty much healthy, you should sleep more, exercise more, or eat a more balanced diet."
+      answer.textContent =  score + "/25 \nyou're pretty much healthy, you should sleep more, exercise more, or eat a more balanced diet.\n"
     } else if (score >= 6) {
-      answer.textContent =  score + "/25 \nyou should sleep more, exercise more, and eat a more balanced diet. "
+      answer.textContent =  score + "/25 \nyou should sleep more, exercise more, and eat a more balanced diet.\n" +
+                                          "You can relax while watching what you are doing "
     } else {
-      answer.textContent =  score + "/25 \nyou have to react quickly if you want to be alive at 50"
+      answer.textContent =  score + "/25 \nyou have to react quickly if you want to be alive at 50 years old"
     }
   }
 
