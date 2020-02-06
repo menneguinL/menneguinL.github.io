@@ -2,10 +2,6 @@
     width: 75px;
     border-radius: 5%;
 }
-.images {
-    width: 300px;
-    border-radius: 5%;
-}
 
 .fond {
     background-image: url("../image/fond.jpg");
@@ -14,6 +10,12 @@
 .button {
     background-color: black;
     color: white;
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
 }
 .button:hover {
     background-color: white;
@@ -24,7 +26,6 @@
     margin-right: auto;
     width: 50%;
     text-align: center;
-
 }
 
 .padding {
@@ -46,10 +47,7 @@
 .cardheight2 {
     height: 175px;
 }
-.bcgProjet {
-    background-color: black;
 
-}
 .white {
     color: white;
 }
@@ -62,4 +60,8 @@ i {
 h1 {
     text-align: center;
     margin-bottom: 30px;
+}
+
+.button.load {
+    opacity: 1;
 }

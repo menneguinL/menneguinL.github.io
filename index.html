@@ -1,517 +1,207 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Challenge</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-replace-svg="nest"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</head>
-<body>
-<header>
-  <nav class="navbar navbar-expand-lg navbar-dark gris static-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="image/moi.jpg" alt="photo de moi" class="image">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i>
-            </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fab fa-github-square"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
-<main>
-  <div class="container">
-    <br>
-    <h4>intermittent fasting 16:8</h4>
-    <p>On the 16:8 diet, you spend 16 hours a day consuming only unsweetened drinks such as water, tea and coffee. The remaining 8-hour time window is when you consume all your meals and snacks for the day. Many people choose to do so by starting their fast in the evening, skipping breakfast and eating their first meal of the day around lunch time. One of the advantages of this way of eating is that no food is prohibited.</p>
-    <a href="https://www.health.harvard.edu/blog/intermittent-fasting-surprising-update-2018062914156">the article</a>
-    <p>this article is a study that shows all the positives of intermittent fasting and how to achieve it</p>
-  </div>
-  <body>
-  <br>
-  <div class="container">
-    <h1>My 30 days challenges</h1>
-    <p>I chose not to eat from 8 pm to noon. During this period I have the right to drink water, coffee and tea.<br>This challenge has a lot of positive effects and I would like to know if it really works:
-      it allows you to sleep better because you eat earlier,
-      to lose weight
-      etc ...</p>
-  </div>
-  <div class="py-5">
-    <div class="container">
-      <div class="row hidden-md-up">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 1</h4>
-              <h6 class="card-subtitle text-muted">02/01 : Tired</h6>
-              <p class="card-text p-y-1">last night, I fell asleep at 8 pm and woke up at 2 pm
-                therefore this challenge begins without problem</p>
+    <head>
+        <meta charset="utf-8">
+        <title>Mon Portfolio</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-replace-svg="nest"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark gris static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="image/moi.jpg" alt="photo de moi" class="image">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#"><i class="fab fa-github-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+                <div class="fond">
+                    <div class="padding">
+                        <div class="row place">
+                            <h1 class="col-sm-12">Loïc Menneguin</h1>
+                        </div>
+                        <div class="row place">
+                            <div class="col-sm-4">
+                                <a href="#aPropos"><button class="btn button">A propos</button></a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a href="#Projets"><button class="btn button">Projets</button></a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a href="#competence"><button class="btn button">Technologies maitrisées</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </header>
+        <br>
+        <div class="container" id="aPropos">
+                <h1>A propos</h1>
+            <div class="row">
+                <p class="text-center ml-auto mr-auto">Passionné de programmation, je code depuis mes 13 ans je suis actuellement étudiant à l'ETNA, école d'alternance en informatique. <br>
+                    Ma mission est d'intégrer votre équipe en améliorant vos projets grâce ma capacité d'apprentissage et mon côté autodidacte.<br>
+                    Je recherche une alternance en développement à partir d'avril 2020.</p>
             </div>
-          </div>
         </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 2</h4>
-              <h6 class="card-subtitle text-muted">03/01 : First real day</h6>
-              <p class="card-text p-y-1">I ate, the day before, a big couscous dish so I didn’t get hungry this morning<img src="image/couscous.jpg" class="images"></p>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="bcgProjet">
+            <div class="container" id="Projets">
+                <h1>Projets</h1>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card w-100 cardheight">
+                            <img src="image/doogly.png" class="card-img-top projetHeight" alt="logo de doogly">
+                            <div class="card-body">
+                                <h5 class="card-title">Doogly</h5>
+                                <p class="card-text">Réaliser tout le front d'un site internet intégrant un système de calendrier et de carte géolocalisée interactive (Angular, Leaflet).
+                                    Utilisation d'APIs (JS).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card w-100 cardheight">
+                            <img src="image/libertycommerce.png" class="card-img-top projetHeight" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Site d'e-commerce</h5>
+                                <p class="card-text">Création complète d'un site d'e-commerce grâce au framework
+                                    PHP : Laravel.
+                                    Utilisation d'HTML, CSS, JS et PHP.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card w-100 cardheight2">
+                            <div class="card-body">
+                                <h5 class="card-title">Piscine</h5>
+                                <p class="card-text">Programmation élémentaire et réalisation personnelle de la bibliothèque "string.h" en langage C
+                                    Base de l’administration système en Shell
+                                    Création de sites web, intégration de bases de données (MySQL)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 test">
+                        <div class="card w-100 cardheight2">
+                            <div class="card-body">
+                                <h5 class="card-title">Jeu de Rythme</h5>
+                                <p class="card-text">Création en groupe d'un jeu de rythme constitué de plusieurs niveau réalisé en python avec la bibliothèque Pygame.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-          </div>
+            <br>
         </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 3</h4>
-              <h6 class="card-subtitle text-muted">04/01 : difficulty ?</h6>
-              <p class="card-text p-y-1">this morning I got a little hungry. Tonight I will eat more.</p>
-            </div>
-          </div>
-        </div>
-      </div><br>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 4</h4>
-              <h6 class="card-subtitle text-muted">05/01</h6>
-              <p class="card-text p-y-1">I fell normal</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 5</h4>
-              <h6 class="card-subtitle text-muted">06/01 : School</h6>
-              <p class="card-text p-y-1">back to school, with the presentation of MentorGoal,
-                I did not have the opportunity to be hungry</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 6</h4>
-              <h6 class="card-subtitle text-muted">07/01</h6>
-              <p class="card-text p-y-1">Today, we eat at 12.45 but I wasn’t too hungry</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="py-5">
-    <div class="container">
-      <div class="row hidden-md-up">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 7</h4>
-              <h6 class="card-subtitle text-muted">08/01 : habit</h6>
-              <p class="card-text p-y-1">I got used to not eating in the morning</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 8</h4>
-              <h6 class="card-subtitle text-muted">09/01 : Sleep more</h6>
-              <p class="card-text p-y-1">I start to wake up later</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 9</h4>
-              <h6 class="card-subtitle text-muted">10/01</h6>
-              <p class="card-text p-y-1">I no longer think about the challenge, I do it naturally</p>
-            </div>
-          </div>
-        </div>
-      </div><br>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 10</h4>
-              <h6 class="card-subtitle text-muted">11/01</h6>
-              <p class="card-text p-y-1">I eat too much last night so I did not eat this afternoon</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 11</h4>
-              <h6 class="card-subtitle text-muted">12/01 : party</h6>
-              <p class="card-text p-y-1">
-                last night I went to a party, so I had a big meal at 4 p.m.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 12</h4>
-              <h6 class="card-subtitle text-muted">13/01</h6>
-              <p class="card-text p-y-1">I wake up now at 7:30 am and I feel like I sleep better</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="py-5">
-    <div class="container">
-      <div class="row hidden-md-up">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 13</h4>
-              <h6 class="card-subtitle text-muted">14/01 : A difficult day</h6>
-              <p class="card-text p-y-1">the exercises of the day are difficult so I was quickly hungry, But I held out.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 14</h4>
-              <h6 class="card-subtitle text-muted">15/01 </h6>
-              <p class="card-text p-y-1">A normal day</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 15</h4>
-              <h6 class="card-subtitle text-muted">16/01 </h6>
-              <p class="card-text p-y-1">I ate too much last night so I'm glad I don't have to eat this morning</p>
-            </div>
-          </div>
-        </div>
-      </div><br>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 16</h4>
-              <h6 class="card-subtitle text-muted">17/01 </h6>
-              <p class="card-text p-y-1">Nothing particular</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 18</h4>
-              <h6 class="card-subtitle text-muted">19/01 </h6>
-              <p class="card-text p-y-1">Nothing particular</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 20</h4>
-              <h6 class="card-subtitle text-muted">21/01 : a big meal </h6>
-              <p class="card-text p-y-1">today I decided to make carbonara pasta.
-                So I made a big meal at 6 p.m.<img src="image/pate.jpg" class="images"></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="py-5">
-    <div class="container">
-      <div class="row hidden-md-up">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 22</h4>
-              <h6 class="card-subtitle text-muted">23/01</h6>
-              <p class="card-text p-y-1">Today I feel very good, fully awake</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 25</h4>
-              <h6 class="card-subtitle text-muted">26/01 </h6>
-              <p class="card-text p-y-1">I went to the restaurant with my father<img src="image/paradis.jpg" class="images"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title">Day 26</h4>
-              <h6 class="card-subtitle text-muted">27/01</h6>
-              <p class="card-text p-y-1">I'm no longer hungry in the morning</p>
-            </div>
-          </div>
-        </div>
-      </div><br>
-      <p>
-        <h3>Conclusion</h3><br>
-      after 26 days, I sleep more.<br>
-      I advise you to do this intermittent fasting 16: 8.<br>
-      It can be a tough start if you are used to eating a lot in the morning, but after a while we are no longer hungry in the morning.
-      </p>
-    </div>
-  </div>
-  <div class="container">
-    <h1>healthy quizz</h1>
-    <form>
-    <div>
-      <h3>
-        How many liters of water do you drink ?</h3>
-      <label for="q11">
-        0L</label>
-      <input type="radio" id="q11" name="drone" value="0"
-             ><br>
-      <label for="q12">
-        0.5L</label>
-      <input type="radio" id="q12" name="drone" value="1"
-             ><br>
-      <label for="q13">
-        1L</label>
-      <input type="radio" id="q13" name="drone" value="2"
-             ><br>
-      <label for="q14">
-        more than 1.5L</label>
-      <input type="radio" id="q14" name="drone" value="3"
-             ><br>
-    </div>
-    </form>
-    <form>
-    <div>
-      <h3>
-        How many time do you eat ?</h3>
-      <label for="q21">
-        once a day</label>
-      <input type="radio" id="q21" name="drone" value="0"
-      ><br>
-      <label for="q22">
-        twice a day</label>
-      <input type="radio" id="q22" name="drone" value="1"
-      ><br>
-      <label for="q23">
-        three times per day</label>
-      <input type="radio" id="q23" name="drone" value="1"
-      ><br>
-      <label for="q24">
-        more than four times a day</label>
-      <input type="radio" id="q24" name="drone" value="0"
-      ><br>
-    </div>
-    </form>
-    <div>
-      <h3>
-        Do you eat ?</h3>
-      <label for="q11">
-        Always the same thing</label>
-      <input type="radio" id="q31" name="drone" value="0"
-      ><br>
-      <label for="q12">
-        you don't care</label>
-      <input type="radio" id="q32" name="drone" value="1"
-      ><br>
-      <label for="q13">
-        As varied as possible.</label>
-      <input type="radio" id="q33" name="drone" value="2"
-      ><br>
-    </div>
-    </form>
-    <form>
-    <div>
-      <h3>
-        When was the last time you set foot in a fast food restaurant?</h3>
-      <label for="q11">
-        Last year</label>
-      <input type="radio" id="q41" name="drone" value="3"
-      ><br>
-      <label for="q12">
-        yesterday</label>
-      <input type="radio" id="q42" name="drone" value="0"
-      ><br>
-      <label for="q13">
-        5 minutes ago</label>
-      <input type="radio" id="q43" name="drone" value="0"
-      ><br>
-      <label for="q14">
-        last month</label>
-      <input type="radio" id="q44" name="drone" value="3"
-      ><br>
-    </div>
-    </form>
-    <form>
-    <div>
-      <h3>
-        how long do you sleep per night ?</h3>
-      <label for="q11">
-        6-8</label>
-      <input type="radio" id="q51" name="drone" value="2"
-      ><br>
-      <label for="q12">
-        > 8 </label>
-      <input type="radio" id="q52" name="drone" value="3"
-      ><br>
-      <label for="q13">
-        < 6</label>
-      <input type="radio" id="q53" name="drone" value="1"
-      >
-      <br>
-    </div>
-    </form>
-    <form>
-    <div>
-      <h3>
-        How much dairy product do you eat each day ?</h3>
-      <label for="q11">
-         > 3</label>
-      <input type="radio" id="q61" name="drone" value="4"
-      ><br>
-      <label for="q12">
-        3</label>
-      <input type="radio" id="q62" name="drone" value="2"
-      ><br>
-      <label for="q13">
-        2</label>
-      <input type="radio" id="q63" name="drone" value="1"
-      ><br>
-      <label for="q14">
-        1 or 0</label>
-      <input type="radio" id="q64" name="drone" value="0"
-      ><br>
-    </div>
-    </form>
-    <form>
-    <div>
-      <h3>
-        How many time do you practice sport per week ?</h3>
-      <label for="q11">
-        more than 4</label>
-      <input type="radio" id="q71" name="drone" value="4"
-      ><br>
-      <label for="q12">
-        3-2</label>
-      <input type="radio" id="q72" name="drone" value="3"
-      ><br>
-      <label for="q13">
-        1</label>
-      <input type="radio" id="q73" name="drone" value="2"
-      ><br>
-      <label for="q14">
-        0</label>
-      <input type="radio" id="q74" name="drone" value="0"
-      ><br>
-    </div>
-    </form>
-    <form>
-    <div>
-    <h3>
-      Do you smoke ?</h3>
-    <label for="q11">
-      never</label>
-    <input type="radio" id="q81" name="drone" value="3"
-    ><br>
-    <label for="q12">
-      twice a day</label>
-    <input type="radio" id="q82" name="drone" value="1"
-    ><br>
-    <label for="q13">
-      sometime</label>
-    <input type="radio" id="q83" name="drone" value="2"
-    ><br>
-    <label for="q14">
-      always</label>
-    <input type="radio" id="q84" name="drone" value="0"
-    ><br>
-  </div>
-    </form>
-    <form>
-    <div>
-      <h3>
-        Do you take any drug ?</h3>
-      <label for="q11">
-        NO</label>
-      <input type="radio" id="q91" name="drone" value="1"
-      ><br>
-      <label for="q12">
-        YES</label>
-      <input type="radio" id="q92" name="drone" value="0"
-      ><br>
-    </div>
-    </form>
-    <form>
-    <div>
-      <h3>
-        Do you thing you are healthy ?</h3>
-      <label for="q11">
-        NO</label>
-      <input type="radio" id="q101" name="drone" value="0"
-      ><br>
-      <label for="q12">
-        YES</label>
-      <input type="radio" id="q102" name="drone" value="1"
-      ><br>
-    </div>
-    </form>
-    <button id="validate btn" onclick="validate()">validate</button><br>
-  </div>
-  <div class="container">
-    <p id="answer"></p>
-  </div>
-  </body>
-</main>
-<script>
-  function validate() {
-    let score = 0;
-    let answer = document.getElementById("answer")
-    let all = document.body.getElementsByTagName("input")
-    for (test in all) {
-      if(all[test].checked === true ) {
-        score += parseInt(all[test].value)
-      }
-    }
-    if (score >= 20) {
-      answer.textContent =  score + "/25 \nyou are in very good health, you may be able to sleep more, exercise more or eat a more balanced diet."
-    } else if (score >= 13) {
-      answer.textContent =  score + "/25 \nyou're pretty much healthy, you should sleep more, exercise more, or eat a more balanced diet.\n"
-    } else if (score >= 6) {
-      answer.textContent =  score + "/25 \nyou should sleep more, exercise more, and eat a more balanced diet.\n" +
-                                          "You can relax while watching what you are doing "
-    } else {
-      answer.textContent =  score + "/25 \nyou have to react quickly if you want to be alive at 50 years old"
-    }
-  }
+        <br>
+        <br>
+        <br>
+
+        <div class="container" id="competence">
+                <h1>Technologies maitrisées</h1>
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <div class="card w-100">
+                        <img src="image/equipe.png" class="card-img-top" alt="travail en équipe">
+                        <div class="card-body">
+                            <h5 class="card-title">WEB</h5>
+                        </div>
+                    </div>
+                </div>
 
 
-</script>
-</body>
+                <div class="col-sm-4">
+                    <div class="card w-100">
+                        <img src="image/info.jpg" class="card-img-top" alt="recherche les informations">
+                        <div class="card-body">
+                            <h5 class="card-title">PYTHON</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card w-100">
+                        <img src="image/ponctuel.jpg" class="card-img-top" alt="ponctuel">
+                        <div class="card-body">
+                            <h5 class="card-title">C</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <footer>
+            <div class="footer-dark bg-dark">
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>Lien</h3>
+                            <ul>
+                                <li><a href="#">Mentions légales</a></li>
+                                <li><a href="#">Politique de confidentialité</a></li>
+                                <li><a href="#">Conditions générales</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>Contact</h3>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fab fa-github-square"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 item text">
+                            <h3>Réseau</h3>
+                            <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                        </div>
+                        <div class="col item social"><a target="_blank" href="https://www.facebook.com/Doogly-613262975755941/"><i class="icon ion-social-facebook"></i></a><a target="_blank" href="#"><i class="icon ion-social-twitter"></i></a><a target="_blank" href="#"><i class="icon ion-social-snapchat"></i></a><a target="_blank" href="#"><i class="icon ion-social-instagram"></i></a></div>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </footer>
+    </body>
+    <script>
+
+        $(function() {
+            $(".button").addClass("load");
+        });
+
+
+    </script>
 </html>
