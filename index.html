@@ -61,9 +61,11 @@
 <div class="container" id="aPropos">
     <h1>A propos</h1>
     <div class="row">
-        <p class="text-center ml-auto mr-auto">Passionné de programmation, je code depuis mes 13 ans je suis actuellement étudiant à l'ETNA, école d'alternance en informatique. <br>
+        <p class="text-center ml-auto mr-auto">Passionné de programmation, je code depuis mes 13 ans je suis actuellement étudiant à l'ETNA, école d'alternance en informatique.<br>
+
             Ma mission est d'intégrer votre équipe en améliorant vos projets grâce ma capacité d'apprentissage et mon côté autodidacte.<br>
-            Je recherche une alternance en développement à partir d'avril 2020.</p>
+
+            Je recherche une alternance en développement à partir d'avril 2020. </p>
     </div>
 </div>
 
@@ -274,6 +276,27 @@
     $(function() {
         $(".button").addClass("load");
     });
+
+    red()
+    function red() {
+        div_techno = document.getElementById("competence");
+        alltext = div_techno.getElementsByClassName("card-title");
+        for (let i = 0; i < 12; i++) {
+            alltext.item(i).style.color = "white";
+            alltext.item(i).parentElement.style.background = "#444444";
+        }
+        setTimeout(blue, 5000);
+    }
+
+    function blue() {
+        div_techno = document.getElementById("competence");
+        alltext = div_techno.getElementsByClassName("card-title");
+        for (let i = 0; i < 12; i++) {
+            alltext.item(i).style.color = "#444444";
+            alltext.item(i).parentElement.style.background = "white";
+        }
+        setTimeout(red, 5000);
+    }
 
 </script>
 </html>
